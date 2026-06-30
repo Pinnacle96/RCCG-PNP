@@ -1,0 +1,11 @@
+# Prevent PHP execution in uploads
+<FilesMatch "\.ph(p[2-7]?|tml)$">
+    Require all denied
+</FilesMatch>
+
+# Only allow specific safe file types
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|mp3|m4a|pdf|docx|svg)$">
+    Require all granted
+</FilesMatch>
+
+Options -Indexes

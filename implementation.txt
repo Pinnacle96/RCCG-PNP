@@ -1,0 +1,62 @@
+Phase 1: Auth + Admin Access
+Implement UserModel, MemberModel, login/logout/password reset.
+Seed first super_admin.
+Add middleware-style protection for /admin/* and /portal/*.
+Add admin dashboard shell with live stats placeholders.
+Implement CSRF validation consistently for forms and AJAX.
+Phase 2: Public Website
+Build the public-facing pages first:
+Home, About, Contact, Prayer, Join.
+Sermons list/detail/series.
+Events list/detail/registration.
+Ministries list/detail.
+Blog list/detail.
+Gallery albums/detail.
+Search and 404.
+SEO meta, sitemap, robots.txt.
+Phase 3: Admin CMS Core
+Build CRUD modules in this order:
+Members.
+Sermons + sermon series.
+Events + registrations.
+Ministries + cell groups.
+Blog.
+Gallery.
+Announcements.
+Contact inbox.
+Phase 4: Giving + Payments
+Give page and manual bank-transfer flow.
+Paystack initiate/verify/webhook.
+Giving transaction admin.
+Receipt PDF generation.
+Receipt email queue.
+Phase 5: Church Management System
+Attendance service creation and manual marking.
+QR attendance.
+Attendance reports.
+Giving reports.
+Prayer request management.
+Member assignment to ministries/cell groups.
+Phase 6: Member Portal
+Member dashboard.
+Profile editor.
+Giving history and receipt downloads.
+Attendance history.
+Cell group/ministry pages.
+QR code display.
+Phase 7: Communications + Automation
+Email/SMS queue.
+Cron scripts.
+Birthday greetings.
+Welcome emails.
+Event confirmations.
+Absence follow-up.
+Admin notifications.
+Phase 8: Polish, Security, Launch
+Audit SQL, XSS, CSRF, upload handling.
+Production config: DEBUG=false, HTTPS cookies, real keys.
+Mobile and browser testing.
+Paystack test then live.
+Email/SMS delivery tests.
+Seed real church settings, services, ministries.
+Deploy to cPanel/public_html.

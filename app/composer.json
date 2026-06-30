@@ -1,0 +1,19 @@
+{
+    "name": "rccgpp/church-management",
+    "description": "RCCG Prince and Princess Parish website and church management system",
+    "type": "project",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=8.1 <9.0",
+        "dompdf/dompdf": "^3.1",
+        "endroid/qr-code": "^6.0",
+        "phpmailer/phpmailer": "^6.10",
+        "phpoffice/phpspreadsheet": "^5.8"
+    }
+}

@@ -1,0 +1,17 @@
+logs/*.log
+storage/sessions/*
+uploads/**/*
+!uploads/.htaccess
+!uploads/blog/.gitkeep
+!uploads/documents/.gitkeep
+!uploads/documents/receipts/.gitkeep
+!uploads/events/.gitkeep
+!uploads/gallery/.gitkeep
+!uploads/members/.gitkeep
+!uploads/sermons/.gitkeep
+app/vendor/
+vendor/
+.env
+app/Config/config.local.php
+*.bak
+*.tmp
